@@ -22,6 +22,7 @@ Home section width: 420
 
 html {
   scroll-behavior: smooth;
+  
 }
 
 body {
@@ -52,7 +53,8 @@ small {
 
 .parallax-window {
   min-height: 1100px;
-  background: transparent;
+  background: rgb(254,255,0);
+  background: linear-gradient(0deg, rgba(254,255,0,0.5270483193277311) 0%, rgba(7,113,27,1) 100%);
 }
 
 .tm-bg-white-transparent {
@@ -110,14 +112,14 @@ small {
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .show > .nav-link {
-  color: #666768;
+  color: #FEFF00;
 }
 
 .navbar-light .navbar-nav .nav-item.green-highlight.active > .nav-link, 
 .navbar-light .navbar-nav .nav-item.green-highlight .nav-link.active, 
 .navbar-light .navbar-nav .nav-item.green-highlight .nav-link.show, 
 .navbar-light .navbar-nav .nav-item.green-highlight .show > .nav-link {
-  color: #006868;
+  color: #FEFF00;
 }
 
 .nav-item {
@@ -143,13 +145,13 @@ small {
 
 .nav-item.active .nav-link,
 .nav-item:hover .nav-link {
-  border-top-color: #666768;
+  border-top-color: #07711B;
 }
 
 .tm-nav-link-highlight {
   width: 16px;
   height: 16px;
-  background-color: #666768;
+  background-color: #FEFF00;
   position: absolute;
   top: -8px;
   left: calc(50% - 8px);
@@ -157,12 +159,12 @@ small {
 
 .nav-item.active.green-highlight .nav-link,
 .nav-item.green-highlight:hover .nav-link {
-  border-top-color: #006868;
+  border-top-color: #07711B;
 }
 
 .nav-item.active.green-highlight
 .tm-nav-link-highlight {
-  background-color: #006868;
+  background-color: #FEFF00;
 }
 
 /* Home */
@@ -543,7 +545,7 @@ p {
 }
 
 #first-tab-group > div {
-  background-color: rgba(15, 29, 32, 0.77);
+  background-color: rgba(32, 32, 15, 0.77);
   color: white;
   padding: 45px 60px;
   min-height: 423px;
@@ -708,7 +710,7 @@ p {
  }
 
  .navbar-toggler {
-   background-color: rgba(255,255,255,0.8);
+   background-color: rgba(255, 255, 255, 0.8);
  }
 
  .tm-home-left {
