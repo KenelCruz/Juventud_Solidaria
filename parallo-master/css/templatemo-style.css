@@ -53,8 +53,8 @@ small {
 
 .parallax-window {
   min-height: 1100px;
-  background: rgb(254,255,0);
-  background: linear-gradient(0deg, rgba(254,255,0,0.5270483193277311) 0%, rgba(7,113,27,1) 100%);
+  background: rgb(255, 255, 255);
+  
 }
 
 .tm-bg-white-transparent {
@@ -100,6 +100,9 @@ small {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  background: rgb(14,190,48);
+background: linear-gradient(104deg, rgba(14,190,48,0.9321054180016678) 0%, rgba(47,154,82,1) 48%, rgba(7,113,27,1) 100%);
+  border-radius: 10px;
 }
 
 
@@ -112,7 +115,7 @@ small {
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .show > .nav-link {
-  color: #FEFF00;
+  color: #fff;
 }
 
 .navbar-light .navbar-nav .nav-item.green-highlight.active > .nav-link, 
@@ -120,6 +123,7 @@ small {
 .navbar-light .navbar-nav .nav-item.green-highlight .nav-link.show, 
 .navbar-light .navbar-nav .nav-item.green-highlight .show > .nav-link {
   color: #FEFF00;
+  
 }
 
 .nav-item {
@@ -132,6 +136,7 @@ small {
 
 .nav-item .tm-nav-link-highlight {
   visibility: hidden;
+  
 }
 
 .nav-item:hover .tm-nav-link-highlight,
@@ -155,6 +160,7 @@ small {
   position: absolute;
   top: -8px;
   left: calc(50% - 8px);
+  border-radius: 10px;
 }
 
 .nav-item.active.green-highlight .nav-link,
@@ -244,6 +250,9 @@ small {
   padding: 40px 50px;
   margin-left: auto;
   margin-right: auto;
+  background: rgb(14,190,48);
+background: linear-gradient(104deg, rgba(14,190,48,0.9321054180016678) 0%, rgba(47,154,82,1) 48%, rgba(7,113,27,1) 100%);
+  
 }
 
 .tm-feature-name {
@@ -307,6 +316,7 @@ small {
 
 p {
   line-height: 1.7;
+  color: #fff;
 }
 
 .tm-call-to-action-form {
@@ -429,6 +439,8 @@ p {
   align-items: center;
   padding: 50px 40px; 
   margin-bottom: 40px; 
+  background: rgb(14,190,48);
+background: linear-gradient(104deg, rgba(14,190,48,0.9321054180016678) 0%, rgba(47,154,82,1) 48%, rgba(7,113,27,1) 100%);
 }
 
 .tm-app-feature-icon {
@@ -468,6 +480,9 @@ p {
   z-index: 102;
   width: 100%;
   padding: 85px 15px 37px 15px;
+  background: rgb(14,190,48);
+  background: linear-gradient(104deg, rgba(14,190,48,0.9321054180016678) 0%, rgba(47,154,82,1) 48%, rgba(7,113,27,1) 100%);
+  opacity: 0.9;
 }
 
 .tm-services-page-title {
@@ -479,6 +494,9 @@ p {
   padding: 80px 70px;
   margin-top: 22px;
   margin-bottom: 41px;
+  background: rgb(14,190,48);
+background: linear-gradient(104deg, rgba(14,190,48,0.9321054180016678) 0%, rgba(47,154,82,1) 48%, rgba(7,113,27,1) 100%);
+
 }
 
 #tmServices .tabs {
@@ -525,6 +543,8 @@ p {
   font-weight: 700;
   padding: 20px 30px;
   transition: all 0.3s;  
+  background: rgb(14,190,48);
+background: linear-gradient(104deg, rgba(14,190,48,0.9321054180016678) 0%, rgba(47,154,82,1) 48%, rgba(7,113,27,1) 100%);
 }
 
 #tmServices .tabs .icon-wrap {
@@ -536,19 +556,26 @@ p {
   align-items: center;
   justify-content: center;
   margin-right: 30px;
+  background: rgb(22,184,40);
+background: radial-gradient(circle, rgba(22,184,40,1) 0%, rgba(24,152,83,1) 35%, rgba(42,158,133,1) 100%);
+  
 }
 
 #tmServices .tabs .active,
 #tmServices .tabs a:hover {
     border-color: white;
     color: #fff!important;
+    background: rgb(14,190,48);
+background: linear-gradient(104deg, rgba(14,190,48,0.9321054180016678) 0%, rgba(47,154,82,1) 48%, rgba(7,113,27,1) 100%);
 }
 
 #first-tab-group > div {
-  background-color: rgba(32, 32, 15, 0.77);
+  
   color: white;
   padding: 45px 60px;
   min-height: 423px;
+  background: rgb(14,190,48);
+background: linear-gradient(104deg, rgba(14,190,48,0.9321054180016678) 0%, rgba(47,154,82,1) 48%, rgba(7,113,27,1) 100%);
 }
 
 .tm-service-tab-title,
