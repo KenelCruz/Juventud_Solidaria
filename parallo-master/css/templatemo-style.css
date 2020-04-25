@@ -176,43 +176,47 @@ background: linear-gradient(104deg, rgba(14,190,48,0.9321054180016678) 0%, rgba(
   background-color: #FEFF00;
 }
 .contenedor {
-  position: relative;
-  width: 100vh;
+  position: absolute;
+  
+ left: 0;
+width: 100vw;
+text-align: center;
+
+  
   }
 
-  footer {
-    width: 100vw;
-    position: absolute;
-    
-    }
     
 .context-dark, .bg-gray-dark, .bg-primary {
   color: rgba(255, 255, 255, 0.8);
   
+  
 }
-.footer-classic{
-  width: 100vw;
-}
+
 
 .footer-classic a, .footer-classic a:focus, .footer-classic a:active {
   color: #ffffff;
+  
   
 }
 .nav-list li {
   padding-top: 5px;
   padding-bottom: 5px;
+  
 }
 
 .nav-list li a:hover:before {
   margin-left: 0;
   opacity: 1;
   visibility: visible;
+  
+  
 }
 
 ul, ol {
   list-style: none;
   padding: 0;
   margin: 0;
+  
 }
 
 .social-inner {
@@ -224,9 +228,11 @@ ul, ol {
   font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.5);
+  
 }
 .social-container .col {
   border: 1px solid rgba(255, 255, 255, 0.1);
+  
 }
 .nav-list li a:before {
   content: "\f14f";
@@ -239,6 +245,7 @@ ul, ol {
   opacity: 0;
   visibility: hidden;
   transition: .22s ease;
+
 }
 
 /* Home */
@@ -341,11 +348,14 @@ background: linear-gradient(104deg, rgba(14,190,48,0.9321054180016678) 0%, rgba(
   margin-bottom: 60px;
 }
 
+
+
 /* Call to Action section */
 #tmCallToAction {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
 
 .tm-bg-white {
   background-color: white;
@@ -479,6 +489,7 @@ p {
 .tm-about-name {
   margin-bottom: 30px;
   text-transform: uppercase;
+  color: #fff;
 }
 
 .tm-about-description {
