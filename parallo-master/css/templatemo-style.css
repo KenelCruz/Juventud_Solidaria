@@ -374,7 +374,8 @@ background: linear-gradient(104deg, rgba(14,190,48,0.9321054180016678) 0%, rgba(
 
 .social-bar ul li a:hover{
   padding: 10px 40px;
-  background: #d2b913;
+  background: rgb(14,190,48);
+  background: linear-gradient(104deg, rgba(14,190,48,0.9321054180016678) 0%, rgba(47,154,82,1) 48%, rgba(7,113,27,1) 100%);
 
 }
 .icon-facebook2:first-child {
