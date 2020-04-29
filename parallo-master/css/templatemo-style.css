@@ -1036,7 +1036,8 @@ background: linear-gradient(104deg, rgba(14,190,48,0.9321054180016678) 0%, rgba(
  }
 
  .navbar-toggler {
-   background-color: rgba(255, 255, 255, 0.8);
+  background: rgb(14,190,48);
+  background: linear-gradient(104deg, rgba(14,190,48,0.9321054180016678) 0%, rgba(47,154,82,1) 48%, rgba(7,113,27,1) 100%);
  }
 
  .tm-home-left {
